@@ -1,15 +1,13 @@
-
-
-export class Userschedule {
-
+export class UserSchedule {
     id : number
     fullName : string
-    mobile : string
+    mobileNumber : string
     email : string
     address : string
     area : string
     pincode : string
-    pickTinmeSlot : string
+    pickupDay : string
+    pickupTimeSlot : string
     packageId : number
     statusId : number
     espectedDeliveryDate? : Date | null;
